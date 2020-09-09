@@ -182,6 +182,10 @@ h1 {
   height: auto;
 }
 
+.challenge-details {
+  text-decoration: none;
+}
+
 .challenge-title {
   margin: 10px;
   color: #666363;
