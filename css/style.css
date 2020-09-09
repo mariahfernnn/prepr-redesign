@@ -103,10 +103,7 @@ body {
 }
 
 #prepr-logo {
-  /* position: absolute; */
   float: left;
-  /* left: 63px;
-  top: 30px; */
   width: 60px;
   max-width: 100%;
   max-height: 70px;
@@ -124,8 +121,6 @@ body {
   margin-top: 35px;
   margin-right: 20px;
   margin-left: auto;
-  /* padding-left: 25%;
-  position: absolute; */
 }
 
 .nav-right a {
@@ -141,7 +136,6 @@ body {
 
 footer {
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   padding-top: 15px;
   width: 100%;
@@ -151,38 +145,20 @@ footer {
 }
 
 #privacy-policy {
-  /* position: absolute; */
-  /* width: 173px;
-  height: 24px;
-  left: 675px;
-  top: 2317px; */
-
   float: left;
   margin-right: 20px;
-  /* padding-right: 25px; */
-  /* float: left; */
-  /* margin-left: 300px; */
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
   line-height: 24px;
-  /* identical to box height, or 160% */
-
   text-align: center;
   letter-spacing: -0.015em;
-
   color: #666363;
   text-decoration: none;
 }
 
 #terms-of-use {
-  /* position: absolute; */
-  /* width: 173px;
-  height: 24px;
-  left: 848px;
-  top: 2317px; */
-
   float: right;
   margin-left: 20px;
   font-family: Montserrat;
@@ -190,11 +166,8 @@ footer {
   font-weight: bold;
   font-size: 15px;
   line-height: 24px;
-  /* identical to box height, or 160% */
-
   text-align: center;
   letter-spacing: -0.015em;
-
   color: #666363;
   text-decoration: none;
 }
