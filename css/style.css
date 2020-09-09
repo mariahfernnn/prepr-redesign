@@ -138,6 +138,11 @@ body {
 
 /* Body */
 
+.explore-challenges {
+  /* display: flex;
+  width: 100%; */
+}
+
 h1 {
   /* position: absolute;
   width: 243px;
@@ -155,13 +160,59 @@ h1 {
   color: #666363;
 }
 
-.challenges {
+.challenges-container {
   /* position: absolute; */
-  width: 100%;
+  /* width: 100%; */
   height: auto;
+  margin: 50px;
   /* left: 80px;
   top: 124px; */
   background: #F5F5F5;
+}
+
+.challenge {
+  display: flex;
+  width: 100%;
+}
+
+.challenge:hover {
+  background: #D3F2FA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.work-challenge {
+  margin: 10px;
+}
+
+.challenge-title {
+  margin: 10px;
+  color: #666363;
+}
+
+.challenge-description {
+  margin: 10px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#next-page {
+  background-image: url("../img/right-arrow.png");
+  background-repeat: no-repeat;
+  background-size: 10px;
+  width: 10px;
+  height: 10px;
+  margin-left: 95%;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.divider {
+  border-bottom: 1px solid #dbdfe2;
+  padding-bottom: 20px;
+  margin: 0 auto 20px;
+  height: 20px;
+  width: 97.5%;
 }
 
 /* Footer */
@@ -214,6 +265,12 @@ footer {
       display: block;
       margin-top: -5px;
       color: green;
+  }
+
+  .challenge {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
   }
 }
 
