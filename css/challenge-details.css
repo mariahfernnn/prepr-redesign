@@ -99,6 +99,7 @@
       border: none;
       border-radius: 30px;
       padding: 15px 32px;
+      margin-right: 28%;
       text-align: center;
       text-decoration: none;
       display: inline-block;
@@ -108,7 +109,7 @@
   }
 
   .challenge-details-overview {
-      width: 90%;
+      width: 80%;
       margin-right: 30px;
   }
 }
