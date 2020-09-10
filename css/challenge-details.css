@@ -83,11 +83,17 @@
 }
 
 .challenge-details-overview {
-  background: indigo;
+  background: #F5F5F5;
   width: 50%;
-  float: left;
-  padding: 20px;
+  /* float: left;
+  padding: 20px; */
   margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.challenge-details-overview-title {
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 950px) {
