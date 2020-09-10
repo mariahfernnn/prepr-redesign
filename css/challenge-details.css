@@ -1,0 +1,110 @@
+/* Body */
+
+.explore-challenge-details {
+  overflow: hidden;
+}
+
+.explore-challenge-details-title h1 {
+  margin-left: 50px;
+  margin-bottom: -50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: -0.015em;
+  color: #00c851;
+}
+
+.challenge-details-container {
+  height: auto;
+  margin: 50px;
+  background: #F5F5F5;
+}
+
+.challenge-details {
+  display: flex;
+  width: 100%;
+}
+
+.challenge-details:hover {
+  /* background: #F8CB87;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px; */
+  /* cursor: pointer; */
+}
+
+.challenge {
+  background-image: url("/..img/.work_challenge.png");
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.challenge-details-text {
+  position: relative;
+}
+
+.challenge-details-title {
+  margin: 10px;
+  color: #666363;
+}
+
+.challenge-details-description {
+  margin: 10px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit {
+  /* position: absolute;
+  top: 550px;
+  right: 80px; */
+  float: right;
+  margin-right: 30px;
+  background-color: #00c851;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (max-width: 950px) {
+  .challenge-details {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .submit {
+      top: 550px;
+      right: 80px;
+      background-color: #00c851;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}
+
+
+
